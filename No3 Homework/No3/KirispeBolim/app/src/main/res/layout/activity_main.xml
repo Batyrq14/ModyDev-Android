@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonDo"
+        android:layout_width="104dp"
+        android:layout_height="166dp"
+        android:background="#F44336"
+        android:text="Do"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRe"
+        android:layout_width="104dp"
+        android:layout_height="166dp"
+        android:background="#E91E63"
+        android:text="Re"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonDo" />
+
+    <Button
+        android:id="@+id/buttonMi"
+        android:layout_width="104dp"
+        android:layout_height="166dp"
+        android:background="#FFEB3B"
+        android:text="Mi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonRe" />
+
+    <Button
+        android:id="@+id/buttonFa"
+        android:layout_width="104dp"
+        android:layout_height="166dp"
+        android:background="#4CAF50"
+        android:text="Fa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonMi" />
+
+    <Button
+        android:id="@+id/buttonSol"
+        android:layout_width="104dp"
+        android:layout_height="166dp"
+        android:background="#2196F3"
+        android:text="Sol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonFa" />
+
+    <Button
+        android:id="@+id/buttonLa"
+        android:layout_width="104dp"
+        android:layout_height="166dp"
+        android:background="#3F51B5"
+        android:text="La"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonSol" />
+
+    <Button
+        android:id="@+id/buttonTi"
+        android:layout_width="104dp"
+        android:layout_height="166dp"
+        android:background="#673AB7"
+        android:text="Ti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonLa" />
+
+    <Button
+        android:id="@+id/buttonIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="72dp"
+        android:text="Increase sound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDecrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="128dp"
+        android:text="Decrease Sound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
